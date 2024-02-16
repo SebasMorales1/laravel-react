@@ -10,5 +10,5 @@ export default defineConfig({
 		}),
 		react(),
 	],
-	base: "https://laravel-react-nine.vercel.app/"
+	// base: "https://laravel-react-nine.vercel.app/"
 });
