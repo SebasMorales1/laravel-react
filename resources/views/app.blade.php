@@ -8,11 +8,7 @@ use Illuminate\Support\Facades\Vite;
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	@viteReactRefresh
-	@production
-		<script type="module" src="{{ secure_asset('build/assets/app-DE27JBqm.js') }}"></script>
-	@else
-		@vite('resources/js/app.jsx', 'build/')
-	@endproduction
+	@vite('resources/js/app.jsx', 'build/')
 	@inertiaHead
 </head>
 <body>
